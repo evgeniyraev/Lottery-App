@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Main Window</title>
+  </head>
+  <body>
+    <div>
+      <div class="images">
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+      </div>
+      <div class="main">
+        <div>
+          <div id="random"></div>
+        </div>
+        
+        <div id="winners"></div>
+      </div>
+    </div>
+    
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
