@@ -1,4 +1,4 @@
-#Lottary App
+# Lottary App
 
 this uses https://github.com/electron/electron-quick-start
 
